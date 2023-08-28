@@ -23,31 +23,35 @@ nav li{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 80px;
+    margin: 130px;
 }
 
 .banner.image-class {
-    background-image: url(/images/header_bg.png);
+   
     width: 500px;
 
 }
-
-.head-grreting {
-    color: #474747;
-    font-size: 45px;
-    font-weight: 600;
-
-}
-
 .head-title {
-    color: #181818;
-    font-size: 85px;
-    font-weight: 700;
-
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+   
+    font-weight: 800;
 }
 
 .head-paragraph {
-    color: #757575;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-
+}
+.btn-primary{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
 }
