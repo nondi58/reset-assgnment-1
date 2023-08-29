@@ -7,12 +7,14 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-between;
-    color: #181818;
+    color: #FFF;
+    background-color: darkgray;
 }
 
 nav>ul {
     display: flex;
     align-items: center;
+    color: #FFF;
 
 }
 
@@ -20,6 +22,7 @@ nav li {
     list-style: none;
     margin-right: 50px;
     justify-content: center;
+     color: #FFF;
 }
 
 /* navbar-end */
@@ -28,13 +31,13 @@ nav li {
     display: flex;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    padding: 80px;
+    padding: 50px;
     margin: 130px;
 }
 
 .banner.image-class {
 
-    width: 500px;
+    width: 300px;
 
 }
 
@@ -67,7 +70,7 @@ nav li {
 /* banner-end */
 .body-image-section {
 
-    padding: 80px;
+    padding: 50px;
     margin: 130px;
 }
 
@@ -175,4 +178,39 @@ nav li {
 
 .main-last-part {
     background-image: url(/styles/Flower\ Asset/);
+}
+/* footer-part */
+.footer-part{
+    background-color: #181818;
+    width: 100%;
+    padding: 20px;
+    margin: 80px;
+
+}
+.footer-header{
+    color: #E55473;
+font-family: Lato;
+font-size: 48px;
+
+text-align: center;
+
+}
+.image-class{
+    background-position: bottom right;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.last-part{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+
+font-weight: 400;
 }
