@@ -177,7 +177,10 @@ nav li {
 }
 
 .main-last-part {
-    background-image: url(/styles/Flower\ Asset/);
+    background-image: url(/styles/Rectangle\ 9.png);
+    padding: 20px;
+    margin: 80px;
+  
 }
 /* footer-part */
 .footer-part{
