@@ -95,6 +95,7 @@ nav li {
 .image-part {
     display: flex;
     text-align: center;
+    gap: 10px;
 
 
 
