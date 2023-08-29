@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Yeseva One', cursive;
+    margin: 0%;
 }
 
 /* navbar */
@@ -56,15 +57,29 @@ nav li {
 }
 
 .btn-primary {
-    display: inline-flex;
-    padding: 20px 43px;
-    align-items: flex-start;
+    /* display: inline-flex; */
+    padding: 15px 33px;
+    /* align-items: flex-start; */
     gap: 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #E55473;
     color: #FFF;
-    border-color: none;
+    
     font-size: medium;
+    outline:none;
+
+}
+.sign-up{
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    padding: 15px 33px;
+    align-items: center;
+   
+    margin-left: 180px;
+    
+    font-size: medium;
+
 }
 
 /* banner-end */
@@ -112,11 +127,10 @@ nav li {
 
 }
 
-#sign-up {
-    align-items: center;
-}
+
 
 .body-third-section {
+    
     display: flex;
     padding: 80px;
     margin: 130px;
@@ -196,6 +210,7 @@ nav li {
 font-family: Lato;
 font-size: 48px;
 
+
 text-align: center;
 
 }
@@ -217,4 +232,7 @@ font-family: Lato;
 font-size: 16px;
 
 font-weight: 400;
+}
+.overall-input{
+    padding-bottom: 50px;
 }
